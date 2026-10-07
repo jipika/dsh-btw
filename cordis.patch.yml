@@ -1,0 +1,5 @@
+# dsh-btw bundle patch: registers the side-question host half + client half.
+# `name` MUST equal package.json's name (scoped specifier included).
+- insert:
+    - id: dsh-btw
+      name: dsh-btw

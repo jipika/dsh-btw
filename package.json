@@ -1,0 +1,39 @@
+{
+  "name": "dsh-btw",
+  "icon": "./assets/icon.svg",
+  "version": "0.2.0",
+  "description": "A native /btw slash command for DeepSeek Harness: ask a side question about the current session and get an answer that never enters the conversation history, never interrupts the running turn, and has no tool access.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-btw.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-btw#readme",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "slash-command",
+    "side-question",
+    "btw",
+    "session"
+  ],
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/transcript.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
